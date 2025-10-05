@@ -48,7 +48,7 @@ const LLMLogsTable = ({logs = [], setLogs}) => {
   }
 
   return (
-    <div>
+    <div className = "fullpage">
       <h2 className="title">📊 Your Personal LLM Log Made Simple 📊</h2>
       <p className="introp">
         Below is each LLM call you made. We tracked values for you like the lengths of the prompt and
