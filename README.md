@@ -43,6 +43,8 @@
 #### cd into 2nd frontend folder where node_modules exists
 #### npm install
 
+### Something that is completely optional, is creating a local PostgreSQL database, and connecting it via pool on db.js, although the app runs without needing a PostgreSQL connection. Thought that for demoing it wasn't necessary, but all the code is still there in GitHub, just commented out.
+
 ## Running the App 💻
 
 #### For simplicity, create 3 terminals.
@@ -71,6 +73,9 @@
 # Check out a demo to EchoLog! (sorry for no sound 🙂) 
 ### Demo shows how to run the app, and gives a broad overview of EchoLog and its functionality.
 ## (https://drive.google.com/file/d/1xYykHHFXlC45cYkzDMcLrF8gEx-zD_Oy/view?usp=sharing)
+## Made an short extra video demonstrating the PostgreSQL connection, and how adding logs and clearing logs on frontend makes changes to our table in our database.
+### (https://drive.google.com/file/d/12zUJZ5kGT_tpx2V56NSLGqSke25aJbON/view?usp=sharing)
+
 
 # Thanks for viewing this project! 
 # Thanks so much for this opportunity DSRS, I truly appreciate the chance to become a part of your team, and this was a really cool project to build in such a short amount of time!
