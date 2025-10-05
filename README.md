@@ -69,6 +69,7 @@
 - I implemented the advanced filtering on the logs, allowing users to be able to filter by date and model. ✅
 
 # Check out a demo to EchoLog! (sorry for no sound 🙂) 
+### Demo shows how to run the app, and gives a broad overview of EchoLog and its functionality.
 ## (https://drive.google.com/file/d/1xYykHHFXlC45cYkzDMcLrF8gEx-zD_Oy/view?usp=sharing)
 
 # Thanks for viewing this project! 
