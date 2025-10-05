@@ -49,7 +49,7 @@ const LLMLogsTable = ({logs = [], setLogs}) => {
 
   return (
     <div>
-      <h2 className="title">Your Personal LLM Log Made Simple</h2>
+      <h2 className="title">📊 Your Personal LLM Log Made Simple 📊</h2>
       <p className="introp">
         Below is each LLM call you made. We tracked values for you like the lengths of the prompt and
         response, the model of the LLM, the hallucination score, latency, and more. You have the option to clear the log,

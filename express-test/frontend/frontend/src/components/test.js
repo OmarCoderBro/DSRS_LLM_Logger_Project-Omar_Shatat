@@ -69,7 +69,7 @@ function PromptForm({ addLog }) {
 
   return (
     <div className="prompt-container">
-      <h2 className = "main-header">Send an LLM your prompt, recieve a response</h2>
+      <h2 className = "main-header">🌐 Send an LLM your prompt, recieve a response 🌐</h2>
       <p className = "main-paragraph">Start your enterprise LLM tracking right now. Every question we answer with various Gemini models will appear in your Logs tab.  </p>
 
       <form onSubmit={handleSubmit} className="prompt-form">
