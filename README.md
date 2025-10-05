@@ -12,10 +12,11 @@
   - **Frontend:** React.js, Recharts for visualization
   - **Database:** Local PostgreSQL database integration
   - **Testing:** Jest
+  - **Hosting:** AWS S3
 
 #### Technologies I wanted to integrate that could have helped the app, but not enough time. 
   - **Socket.io**, for automatic live updates of the LLM log tab, whenever a user clicks the submit button.
-  - Ready for **AWS (S3, EC2)** for hosting.
+  - Ready for **AWS EC2** for hosting backend.
 
 #### Why these architectural and design choices? 🤔: One thing that may stick out to you is the HuggingFace model in a Flask app. I was recently part of research with AI hallucination, and already had the pipeline setup from one of my projects, so I took that code and implemented it in EchoLog, which added a whole new dimension of analysis when it came to analyzing LLM calls. I chose a PostgreSQL database, because I wanted a fast, reliable, and structured relational database, which allowed me to store multiple data-types, and I also had past experience with PostgreSQL. I chose Node and Express for creating my API endpoints, because it was easy to stick with JavaScript syntax and retain that consistency throughout my frontend and backend. JavaScript also has really cool database interaction with PostgreSQL through a 'pool' connection, with node-postgres.
 
@@ -63,7 +64,7 @@
 
 # Bonus Challenge (System Evolution) 📈
 - As for evolving this system to ensure cost optimization and efficiency, I'd say that a couple things are really important to implement. The first thing is the async handling which I was going to implement, but ran out of time. This can be through Polling or Socket.io, and would definitely handle a larger user base a lot easier, by processing more requests more rapidly with live frontend updates, which I think is important for a platform like this.
-- I would also add load handling, which means running the backend servers by different means. Of course, I would have hosted on AWS, but I think what is more important is making sure this app is hosted in a way which ensures that the heavy number of requests does not overstimulate a certain server in our backend, so whether it means distributing across more servers, or balancing the load of requests across our current servers, I think that is definitely something to keep in mind for a platform that will definitely experience bottleneck if it is not scaled.
+- I would also add load handling, which means running the backend servers by different means. Of course, I would have hosted backend and database on AWS, but I think what is more important is making sure this app is hosted in a way which ensures that the heavy number of requests does not overstimulate a certain server in our backend, so whether it means distributing across more servers, or balancing the load of requests across our current servers, I think that is definitely something to keep in mind for a platform that will definitely experience bottleneck if it is not scaled.
 - As far as user management, rate limiting would also be among some of the most important performance optimization integrations. Without rate limiting, the number of requests a user can make is unrestricted, which can cause the backend to be unresponsive or slow for other users. This is now leading me to believe that there should be a limit to the size of the response, etc, which can be done with prompt engineering and I have done something similar to that in the past.
 - As far as user experience, adding authentication, user profiles, the option for an enterprise profile or an individual profile, and even the option to add multiple API keys and switch between them would be pretty helpful if we are trying to get a broad overview of the performance of LLMs across different companies.
 
