@@ -1,6 +1,8 @@
 # Thanks so much for this opportunity DSRS
 # Welcome to EchoLog 👋
 
+## Frontend hosted live on AWS S3 (http://dsrsprojectomarshatat.s3-website.us-east-2.amazonaws.com/about)
+
 #### When I read the prompt, I thought about the super vast demand of using LLMs, especially for an organization, where costs might be getting a little too high. Whatever organization it may be, being able to not only track the LLM requests, but derive analysis on the performance of these LLMs through metrics I've included in this project, could be really beneficial. See, it's not enough to track when someone made an LLM call, and what model they used. I thought that including metrics like the hallucination score through span detection, finding the latency of these requests, and tracking other minor metrics like prompt and response length, would allow an organization, or even just a user, to centralize his or her LLM usage for whatever LLM they use, and really delve into what affects the performance and cost of using an LLM. This would in turn allow us to compare models and their latency, allowing organizations to optimize performance across huge teams, potentially saving a lot of money.
 
 ### Let's get to some of the project details.
