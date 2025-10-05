@@ -78,6 +78,7 @@
 ## (https://drive.google.com/file/d/1xYykHHFXlC45cYkzDMcLrF8gEx-zD_Oy/view?usp=sharing)
 ## Made an short extra video demonstrating the PostgreSQL connection, and how adding logs and clearing logs on frontend makes changes to our table in our database.
 ### (https://drive.google.com/file/d/12zUJZ5kGT_tpx2V56NSLGqSke25aJbON/view?usp=sharing)
+#### Link to hallucination detection HuggingFace model => (https://huggingface.co/Varun-Chowdary/hallucination_detect)
 
 
 # Thanks for viewing this project! 
