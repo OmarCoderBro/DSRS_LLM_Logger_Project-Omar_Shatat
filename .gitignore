@@ -1,0 +1,9 @@
+# Python virtual environment
+express-test/backend/venv/
+
+# Node modules
+backend/node_modules/
+frontend/node_modules/
+
+# Build outputs
+frontend/build/
