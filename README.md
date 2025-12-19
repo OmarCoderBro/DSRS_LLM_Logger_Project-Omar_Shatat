@@ -1,4 +1,3 @@
-# Thanks so much for this opportunity DSRS
 # Welcome to EchoLog 👋
 
 ## Frontend hosted live on AWS S3 (http://dsrsprojectomarshatat.s3-website.us-east-2.amazonaws.com/about)
@@ -82,7 +81,6 @@
 
 
 # Thanks for viewing this project! 
-# Thanks so much for this opportunity DSRS, I truly appreciate the chance to become a part of your team, and this was a really cool project to build in such a short amount of time!
 
 
 
